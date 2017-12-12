@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="562.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gofishextreme.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="hand0" fitHeight="150.0" fitWidth="100.0" layoutX="14.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20card.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hand1" fitHeight="150.0" fitWidth="100.0" layoutX="124.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20card.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hand2" fitHeight="150.0" fitWidth="100.0" layoutX="234.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20card.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hand4" fitHeight="150.0" fitWidth="100.0" layoutX="344.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20card.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hand5" fitHeight="150.0" fitWidth="100.0" layoutX="454.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20card.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hand6" fitHeight="150.0" fitWidth="100.0" layoutX="563.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20card.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hand7" fitHeight="150.0" fitWidth="100.0" layoutX="674.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20card.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="handCycle" layoutX="14.0" layoutY="503.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="100.0" text="Cycle Hand 1/1" />
+      <Button fx:id="faceDown" layoutX="124.0" layoutY="503.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="&lt;" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="169.0" layoutY="503.0" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="17.0" prefWidth="45.0" text="QUEEN" />
+      <Button fx:id="faceUp" layoutX="214.0" layoutY="503.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="&gt;" />
+      <Button fx:id="suitUp" layoutX="399.0" layoutY="503.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="&gt;" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="354.0" layoutY="503.0" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="17.0" prefWidth="45.0" text="SPADES" />
+      <Button fx:id="suitDown" layoutX="309.0" layoutY="503.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="&lt;" />
+      <Text layoutX="277.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OF" />
+      <Button fx:id="ask" layoutX="454.0" layoutY="503.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text="ASK" />
+      <Label fx:id="updateText" layoutX="508.0" layoutY="504.0" maxHeight="45.0" maxWidth="250.0" minHeight="45.0" minWidth="260.0" prefHeight="39.0" prefWidth="265.0" text="Update Text" />
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20player.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="124.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20player.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="234.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20player.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="345.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20player.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="454.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../artAssets/placeholder%20player.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

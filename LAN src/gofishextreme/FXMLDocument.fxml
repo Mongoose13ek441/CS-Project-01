@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="gofishextreme.FXMLDocumentController">
+    <children>
+        <Button fx:id="joingame" layoutX="126.0" layoutY="75.0" onAction="#joinGame" text="Join Game" />
+      <Text layoutX="72.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello! Welcome to Go Fish 2017. " />
+      <Button fx:id="hostgame" layoutX="125.0" layoutY="116.0" onAction="#hostGame" text="Host Game" />
+      <Label fx:id="header" alignment="CENTER" layoutX="81.0" layoutY="155.0" prefHeight="17.0" prefWidth="176.0" text="Click an option to begin." />
+      <TextField fx:id="serverInput" layoutX="28.0" layoutY="40.0" promptText="Server" />
+      <TextField fx:id="portInput" layoutX="188.0" layoutY="40.0" prefHeight="25.0" prefWidth="93.0" promptText="Port" />
+    </children>
+</AnchorPane>
